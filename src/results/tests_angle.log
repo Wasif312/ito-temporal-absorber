@@ -1,0 +1,14 @@
+V0 37.17 deg: max |Ex - Z Hy| / max|Ex| = 2.1e-03  PASS
+V1 37.17 deg, d 10 nm, cells 1.0 nm: max |R - R_exact| over 1000-2000 nm = 2.1e-03 (R_exact min 0.490); energy balance -1.8e-04  PASS
+V1 37.17 deg, d 40 nm, cells 1.0 nm: max |R - R_exact| over 1000-2000 nm = 1.5e-03 (R_exact min 0.045); energy balance -5.0e-04  PASS
+V1 37.17 deg, d 10 nm, cells 0.5 nm: max |R - R_exact| over 1000-2000 nm = 1.9e-03 (R_exact min 0.490); energy balance -1.8e-04  PASS
+V1 37.17 deg, d 40 nm, cells 0.5 nm: max |R - R_exact| over 1000-2000 nm = 1.4e-03 (R_exact min 0.045); energy balance -4.9e-04  PASS
+V0 70.00 deg: max |Ex - Z Hy| / max|Ex| = 4.6e-04  PASS
+V1 70.00 deg, d 10 nm, cells 1.0 nm: max |R - R_exact| over 1000-2000 nm = 6.9e-04 (R_exact min 0.000); energy balance -2.5e-05  PASS
+V1 70.00 deg, d 40 nm, cells 1.0 nm: max |R - R_exact| over 1000-2000 nm = 3.8e-04 (R_exact min 0.283); energy balance -2.8e-05  PASS
+V1 70.00 deg, d 10 nm, cells 0.5 nm: max |R - R_exact| over 1000-2000 nm = 7.1e-04 (R_exact min 0.000); energy balance -2.6e-05  PASS
+V1 70.00 deg, d 40 nm, cells 0.5 nm: max |R - R_exact| over 1000-2000 nm = 3.8e-04 (R_exact min 0.283); energy balance -3.0e-05  PASS
+V2 switched film, current form: absorbed 0.8146, W_mod -2.46e-03, dissipated 0.8122, balance -7.4e-05  PASS
+V2 switched film, momentum form: absorbed 0.8145, W_mod +2.48e-03, dissipated 0.8170, balance -7.4e-05  PASS
+saved results/tests_angle.json
+all tests passed

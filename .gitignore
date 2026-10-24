@@ -1,0 +1,23 @@
+# Python and Numba caches
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+.pytest_cache/
+.ruff_cache/
+
+# environments
+.venv/
+venv/
+env/
+
+# local copies and logs made by reproduce.py, checkpoints of interrupted runs
+src/results/published/
+src/results/fig_*.log
+src/results/paper_*.log
+src/results/*_partial.json
+
+# editors and systems
+.DS_Store
+.idea/
+.vscode/

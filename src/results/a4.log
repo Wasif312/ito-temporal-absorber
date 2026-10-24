@@ -1,0 +1,12 @@
+293 runs
+done in 20.3 min
+   depth 0.10 rise 30 fs current       : R 0.241  1e-3 width FDTD   9.3 THz (224.7-234.0), adiabatic   9.2 THz, FWHM 1.86 THz, centroid 230.64 THz
+   depth 0.10 rise 10 fs current       : R 0.259  1e-3 width FDTD   9.3 THz (224.7-234.0), adiabatic   9.2 THz, FWHM 1.86 THz, centroid 230.63 THz
+   depth 0.10 rise 3 fs current        : R 0.266  1e-3 width FDTD   9.1 THz (224.9-234.0), adiabatic   9.2 THz, FWHM 1.86 THz, centroid 230.62 THz
+   depth 0.10 rise 1 fs current        : R 0.268  1e-3 width FDTD   9.1 THz (224.9-234.0), adiabatic   9.2 THz, FWHM 1.86 THz, centroid 230.62 THz
+   depth 0.20 rise 30 fs current       : R 0.387  1e-3 width FDTD  10.3 THz (223.7-234.0), adiabatic   9.9 THz, FWHM 2.00 THz, centroid 230.39 THz
+   depth 0.30 rise 30 fs current       : R 0.478  1e-3 width FDTD  10.7 THz (223.3-234.0), adiabatic  10.2 THz, FWHM 2.14 THz, centroid 230.29 THz
+   depth 0.10 rise 3 fs momentum       : R 0.266  1e-3 width FDTD   9.1 THz (224.9-234.0), adiabatic   9.2 THz, FWHM 1.86 THz, centroid 230.63 THz
+   depth 0.10 rise 1 fs momentum       : R 0.268  1e-3 width FDTD   9.1 THz (224.9-234.0), adiabatic   9.2 THz, FWHM 1.86 THz, centroid 230.62 THz
+   depth 0.00 rise 30 fs current       : R 0.076  1e-3 width FDTD   6.4 THz (227.4-233.9), adiabatic   6.3 THz, FWHM 1.86 THz, centroid 230.66 THz
+saved results/a4.json

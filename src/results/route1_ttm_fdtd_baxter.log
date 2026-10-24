@@ -1,0 +1,6 @@
+pec_fixed_7.5nm_75_25: limit 0.8990; static 0.6391; switched 0.9210 at pump -352 fs, momentum form 0.9217; margin +0.0219 (adiabatic +0.0252); W_mod -0.0027; largest |balance| 2.1e-05
+pec_fixed_7.5nm_75_30: limit 0.8299; static 0.5480; switched 0.8771 at pump -348 fs, momentum form 0.8781; margin +0.0472 (adiabatic +0.0508); W_mod -0.0030; largest |balance| 2.1e-05
+pec_fixed_10nm_70_30: limit 0.8345; static 0.5405; switched 0.8710 at pump -352 fs, momentum form 0.8722; margin +0.0366 (adiabatic +0.0402); W_mod -0.0030; largest |balance| 4.2e-05
+pec_hot_5nm_80_40: limit 0.7053; static 0.4518; switched 0.7112 at pump -414 fs, momentum form 0.7124; margin +0.0058 (adiabatic +0.0070); W_mod -0.0018; largest |balance| 3.3e-06
+pec_hot_7.5nm_75_40: limit 0.7069; static 0.4436; switched 0.7017 at pump -416 fs, momentum form 0.7029; margin -0.0052 (adiabatic -0.0041); W_mod -0.0018; largest |balance| 1.1e-05
+saved results/route1_ttm_fdtd_baxter.json (753 s)

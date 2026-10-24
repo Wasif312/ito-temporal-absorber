@@ -1,0 +1,3 @@
+pec_T0_30k_7.5nm_75_30: limit 0.8136; static 0.5410; switched 0.8275 at pump -373 fs, momentum form 0.8286; margin +0.0139 (adiabatic +0.0174); W_mod -0.0022; largest |balance| 1.6e-05
+pec_T0_-60k_7.5nm_75_30: limit 0.8390; static 0.5480; switched 0.9011 at pump -338 fs, momentum form 0.9020; margin +0.0621 (adiabatic +0.0653); W_mod -0.0036; largest |balance| 2.4e-05
+saved results/route1_ttm_fdtd_baxter_damping.json (372 s)

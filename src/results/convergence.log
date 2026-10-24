@@ -1,0 +1,23 @@
+24 runs read from results/convergence_partial.json
+   route1    glass/2  switched absorbed 0.87837 (25 of 30 runs, 101 s)
+   route1    glass/2  static   absorbed 0.57230 (26 of 30 runs, 103 s)
+   realistic glass/2  switched absorbed 0.70197 (27 of 30 runs, 389 s)
+   realistic glass/2  static   absorbed 0.45374 (28 of 30 runs, 389 s)
+   route3    glass/2  static   absorbed 0.73655 (29 of 30 runs, 458 s)
+   route3    glass/2  switched absorbed 0.85467 (30 of 30 runs, 459 s)
+route1    base     static 0.57229, switched 0.87836, limit 0.84784, margin +0.03052, largest |balance| 1.7e-06
+route1    cells/2  static 0.57229, switched 0.87836, limit 0.84784, margin +0.03052, largest |balance| 1.8e-06
+route1    cells/4  static 0.57229, switched 0.87836, limit 0.84784, margin +0.03052, largest |balance| 1.9e-06
+route1    dt/2     static 0.57229, switched 0.87836, limit 0.84784, margin +0.03052, largest |balance| 1.8e-06
+route1    glass/2  static 0.57230, switched 0.87837, limit 0.84783, margin +0.03054, largest |balance| 2.5e-07
+realistic base     static 0.45373, switched 0.70196, limit 0.70679, margin -0.00483, largest |balance| 1.1e-06
+realistic cells/2  static 0.45373, switched 0.70196, limit 0.70679, margin -0.00483, largest |balance| 1.1e-06
+realistic cells/4  static 0.45373, switched 0.70196, limit 0.70679, margin -0.00483, largest |balance| 1.1e-06
+realistic dt/2     static 0.45373, switched 0.70196, limit 0.70679, margin -0.00483, largest |balance| 1.1e-06
+realistic glass/2  static 0.45374, switched 0.70197, limit 0.70679, margin -0.00482, largest |balance| 2.8e-07
+route3    base     static 0.73654, switched 0.85466, largest |balance| 5.2e-05
+route3    cells/2  static 0.73654, switched 0.85466, largest |balance| 1.1e-05
+route3    cells/4  static 0.73655, switched 0.85467, largest |balance| 2.1e-06
+route3    dt/2     static 0.73654, switched 0.85466, largest |balance| 5.1e-05
+route3    glass/2  static 0.73655, switched 0.85467, largest |balance| 1.1e-05
+saved results/convergence.json (460 s)

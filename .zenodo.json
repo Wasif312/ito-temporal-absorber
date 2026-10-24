@@ -1,0 +1,23 @@
+{
+  "title": "ito-temporal-absorber: time-varying ITO films on a mirror against the Rozanov bound",
+  "upload_type": "software",
+  "version": "1.1.0",
+  "license": "mit",
+  "description": "Material models of indium tin oxide, a one-dimensional FDTD at a fixed angle of incidence for planar stacks of time-varying Drude media, a two-temperature model of the pumped film, the studies that test chirp-matched temporal absorption against the Rozanov bound of non-magnetic static absorbers, and the scripts that derive the figures and tables of the accompanying paper from the stored results. The repository holds every result file behind those figures and tables.",
+  "creators": [
+    {
+      "name": "Hussain, Muhammad Wasif",
+      "affiliation": "Department of Physics, Superior Groups of Colleges (Campus for University Programs), Mandi Bahauddin, Pakistan",
+      "orcid": "0009-0008-2449-1883"
+    }
+  ],
+  "keywords": [
+    "time-varying media",
+    "temporal metamaterials",
+    "Rozanov bound",
+    "epsilon-near-zero",
+    "indium tin oxide",
+    "FDTD",
+    "two-temperature model"
+  ]
+}

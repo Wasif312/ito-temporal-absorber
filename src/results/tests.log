@@ -1,0 +1,25 @@
+T1  static mirror, FDTD against transfer matrix
+    coarse cells 10 nm: max |R_FDTD - R_TMM| = 6.1e-04 (worst at 1600 nm)  PASS
+    coarse cells 5 nm: max |R_FDTD - R_TMM| = 4.4e-04 (worst at 1434 nm)  PASS
+T2  uniform Drude medium, 10 % drop of wp at t = 20 fs, FDTD against the exact solution
+    current gamma=0.00e+00 courant=0.5        : field error 7.7e-04, energy balance +3.6e-05, W_mod/W0 +0.099  PASS
+    current gamma=0.00e+00 courant=0.25       : field error 1.9e-04, energy balance +1.9e-05, W_mod/W0 +0.099  PASS
+    momentum gamma=0.00e+00 courant=0.5       : field error 7.3e-04, energy balance +3.4e-05, W_mod/W0 -0.090  PASS
+    momentum gamma=0.00e+00 courant=0.25      : field error 1.8e-04, energy balance +1.8e-05, W_mod/W0 -0.090  PASS
+    current gamma=1.45e+14 courant=0.5        : field error 5.6e-05, energy balance -2.2e-04, W_mod/W0 +0.007  PASS
+    current gamma=1.45e+14 courant=0.25       : field error 1.4e-05, energy balance -1.1e-04, W_mod/W0 +0.007  PASS
+    momentum gamma=1.45e+14 courant=0.5       : field error 5.6e-05, energy balance -2.2e-04, W_mod/W0 -0.007  PASS
+    momentum gamma=1.45e+14 courant=0.25      : field error 1.4e-05, energy balance -1.1e-04, W_mod/W0 -0.007  PASS
+    sudden lossless switch, current  form: forward E 1.049, backward E 0.049, frequency 238.8 -> 217.3 THz
+    sudden lossless switch, momentum form: forward E 0.955, backward E 0.045, frequency 238.8 -> 217.3 THz
+T3  mirror switched under a 220 fs probe, energy balance
+    delay -90 fs current        : R 0.2409, W_mod +0.0015, diss 0.7604, balance +9.7e-05  PASS
+    delay -90 fs momentum       : R 0.2410, W_mod -0.0015, diss 0.7573, balance +9.6e-05  PASS
+    delay +100 fs current       : R 0.5605, W_mod +0.0004, diss 0.4396, balance +1.6e-04  PASS
+    delay +100 fs momentum      : R 0.5604, W_mod -0.0004, diss 0.4389, balance +1.6e-04  PASS
+T4  slow modulation: both forms against the adiabatic estimate
+    delay  -200 fs: R current 0.0793, momentum 0.0794, adiabatic 0.0793  PASS
+    delay    +0 fs: R current 0.1589, momentum 0.1591, adiabatic 0.1585  PASS
+    delay  +500 fs: R current 0.6499, momentum 0.6499, adiabatic 0.6500  PASS
+saved results/tests.json
+all tests passed

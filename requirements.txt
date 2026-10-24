@@ -1,0 +1,9 @@
+# Package versions the published results were computed with. With them the
+# tests pass and the paper outputs come out unchanged on Python 3.11, 3.12 and
+# 3.13. Any NumPy >= 2.0, SciPy >= 1.11, Matplotlib >= 3.8 and Numba >= 0.60
+# should reproduce the results; see pyproject.toml.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+numba==0.68.0
+pytest==9.1.1

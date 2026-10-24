@@ -1,0 +1,6 @@
+V3 d 7.5 nm: max |R - R_exact| over 1000-2400 nm = 4.3e-04; energy balance -1.2e-04; absorbed in ITO 0.3266, in gold 0.0329  PASS
+V3 d 10.0 nm: max |R - R_exact| over 1000-2400 nm = 3.8e-04; energy balance -1.1e-04; absorbed in ITO 0.3595, in gold 0.0293  PASS
+V4 switched, current form: absorbed 0.7863, W_mod -2.47e-03, balance -4.5e-05  PASS
+V4 switched, momentum form: absorbed 0.7879, W_mod +2.49e-03, balance -4.5e-05  PASS
+saved results/tests_angle_gold.json
+all tests passed

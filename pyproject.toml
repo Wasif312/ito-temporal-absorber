@@ -1,0 +1,48 @@
+[project]
+name = "ito-temporal-absorber"
+version = "1.1.0"
+description = "Time-varying ITO films on a mirror against the Rozanov bound: material models, fixed-angle FDTD, two-temperature model, the studies of the paper and its figures and tables"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Muhammad Wasif Hussain", email = "m.wasif.physcholar@gmail.com" }]
+keywords = ["time-varying media", "temporal metamaterials", "Rozanov bound", "epsilon-near-zero", "indium tin oxide", "FDTD", "two-temperature model"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "numba>=0.60",
+]
+
+[project.urls]
+Homepage = "https://github.com/Wasif312/ito-temporal-absorber"
+Repository = "https://github.com/Wasif312/ito-temporal-absorber"
+Issues = "https://github.com/Wasif312/ito-temporal-absorber/issues"
+Changelog = "https://github.com/Wasif312/ito-temporal-absorber/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "ruff>=0.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["src/results"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B"]
+# I is the usual symbol for an intensity; E402 is needed where matplotlib picks its backend before pyplot loads
+ignore = ["E741"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/figstyle.py" = ["E402"]

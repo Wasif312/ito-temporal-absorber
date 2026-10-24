@@ -1,0 +1,7 @@
+best_0.10: d 7.5 nm, 75 deg, depth 0.10, centre 1389 nm, span 150 nm, FWHM 354 fs: limit 0.9915 (adiabatic search 0.9915); best static 0.8665; switched 0.9630 at pump -346 fs (adiabatic 0.9647), momentum form 0.9631; margin -0.0285; W_mod -0.0012; largest |balance| 2.2e-05
+d10_0.10: d 10.0 nm, 70 deg, depth 0.10, centre 1387 nm, span 150 nm, FWHM 349 fs: limit 0.9918 (adiabatic search 0.9918); best static 0.8600; switched 0.9596 at pump -349 fs (adiabatic 0.9613), momentum form 0.9597; margin -0.0322; W_mod -0.0012; largest |balance| 5.2e-05
+best_0.20: d 10.0 nm, 75 deg, depth 0.20, centre 1517 nm, span 150 nm, FWHM 153 fs: limit 0.9972 (adiabatic search 0.9972); best static 0.9047; switched 0.9896 at pump -266 fs (adiabatic 0.9959), momentum form 0.9894; margin -0.0076; W_mod -0.0040; largest |balance| 2.9e-05
+best_0.30: d 7.5 nm, 75 deg, depth 0.30, centre 1632 nm, span 501 nm, FWHM 338 fs: limit 0.8478 (adiabatic search 0.8478); best static 0.5723; switched 0.8784 at pump -310 fs (adiabatic 0.8837), momentum form 0.8799; margin +0.0305; W_mod -0.0042; largest |balance| 2.4e-05
+d10_0.30: d 10.0 nm, 70 deg, depth 0.30, centre 1628 nm, span 494 nm, FWHM 336 fs: limit 0.8528 (adiabatic search 0.8528); best static 0.5655; switched 0.8725 at pump -312 fs (adiabatic 0.8779), momentum form 0.8741; margin +0.0196; W_mod -0.0041; largest |balance| 5.0e-05
+transform-limited pulse with the spectrum of best_0.30: limit 0.8479, best static 0.5724, best switched 0.5762 at pump +20 fs
+saved results/route1_fdtd.json (569 s)

@@ -1,0 +1,9 @@
+d7.5_75_0.225: limit 0.9495, static 0.7347, switched 0.9482 at pump -324 fs; margin -0.0014 (adiabatic +0.0031); W_mod -0.0033; largest |balance| 2.5e-05
+d7.5_75_0.25: limit 0.9164, static 0.6703, switched 0.9238 at pump -321 fs; margin +0.0074 (adiabatic +0.0120); W_mod -0.0035; largest |balance| 2.4e-05
+d7.5_75_0.275: limit 0.8844, static 0.6207, switched 0.9026 at pump -314 fs; margin +0.0182 (adiabatic +0.0232); W_mod -0.0039; largest |balance| 2.4e-05
+d10_75_0.225: limit 0.9932, static 0.8710, switched 0.9874 at pump -278 fs; margin -0.0058 (adiabatic +0.0006); W_mod -0.0044; largest |balance| 3.0e-05
+d10_75_0.25: limit 0.9806, static 0.8079, switched 0.9790 at pump -290 fs; margin -0.0016 (adiabatic +0.0043); W_mod -0.0046; largest |balance| 2.9e-05
+d10_75_0.275: limit 0.9619, static 0.7490, switched 0.9665 at pump -295 fs; margin +0.0045 (adiabatic +0.0105); W_mod -0.0048; largest |balance| 2.8e-05
+d10_70_0.25: limit 0.9239, static 0.6709, switched 0.9225 at pump -323 fs; margin -0.0014 (adiabatic +0.0033); W_mod -0.0035; largest |balance| 5.4e-05
+d10_70_0.275: limit 0.8897, static 0.6154, switched 0.8980 at pump -318 fs; margin +0.0083 (adiabatic +0.0134); W_mod -0.0038; largest |balance| 5.2e-05
+saved results/route1_threshold_fdtd.json (517 s)

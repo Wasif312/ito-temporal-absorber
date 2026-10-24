@@ -1,0 +1,19 @@
+pec_hot_T30k   d  5.0 nm, 80 deg, drop 0.30 (gamma x1.43): margin +0.0113 (switched 0.8357, limit 0.8244, static 0.5647) span 552 nm, centre 1624 nm
+pec_hot_T30k   d  5.0 nm, 80 deg, drop 0.40 (gamma x1.65): margin +0.0345 (switched 0.7177, limit 0.6832, static 0.4274) span 1000 nm, centre 1850 nm
+pec_hot_T30k   d  7.5 nm, 75 deg, drop 0.30 (gamma x1.43): margin +0.0022 (switched 0.8303, limit 0.8282, static 0.5591) span 547 nm, centre 1619 nm
+pec_hot_T30k   d  7.5 nm, 75 deg, drop 0.40 (gamma x1.65): margin +0.0294 (switched 0.7467, limit 0.7173, static 0.4502) span 865 nm, centre 1804 nm
+pec_hot_T30k   d 10.0 nm, 70 deg, drop 0.30 (gamma x1.43): margin -0.0114 (switched 0.8223, limit 0.8336, static 0.5512) span 539 nm, centre 1614 nm
+pec_hot_T30k   d 10.0 nm, 70 deg, drop 0.40 (gamma x1.65): margin +0.0137 (switched 0.7331, limit 0.7194, static 0.4387) span 867 nm, centre 1802 nm
+pec_hot_T60k   d  5.0 nm, 80 deg, drop 0.30 (gamma x1.21): margin +0.0273 (switched 0.8617, limit 0.8344, static 0.5719) span 529 nm, centre 1628 nm
+pec_hot_T60k   d  5.0 nm, 80 deg, drop 0.40 (gamma x1.32): margin +0.0666 (switched 0.7874, limit 0.7208, static 0.4589) span 845 nm, centre 1823 nm
+pec_hot_T60k   d  7.5 nm, 75 deg, drop 0.30 (gamma x1.21): margin +0.0189 (switched 0.8567, limit 0.8378, static 0.5665) span 524 nm, centre 1625 nm
+pec_hot_T60k   d  7.5 nm, 75 deg, drop 0.40 (gamma x1.32): margin +0.0564 (switched 0.7787, limit 0.7223, static 0.4511) span 845 nm, centre 1821 nm
+pec_hot_T60k   d 10.0 nm, 70 deg, drop 0.30 (gamma x1.21): margin +0.0065 (switched 0.8497, limit 0.8432, static 0.5592) span 516 nm, centre 1620 nm
+pec_hot_T60k   d 10.0 nm, 70 deg, drop 0.40 (gamma x1.32): margin +0.0414 (switched 0.7663, limit 0.7249, static 0.4403) span 845 nm, centre 1817 nm
+pec_hot_T120k  d  5.0 nm, 80 deg, drop 0.30 (gamma x1.11): margin +0.0353 (switched 0.8742, limit 0.8389, static 0.5743) span 518 nm, centre 1632 nm
+pec_hot_T120k  d  5.0 nm, 80 deg, drop 0.40 (gamma x1.16): margin +0.0812 (switched 0.8058, limit 0.7245, static 0.4594) span 831 nm, centre 1831 nm
+pec_hot_T120k  d  7.5 nm, 75 deg, drop 0.30 (gamma x1.11): margin +0.0275 (switched 0.8700, limit 0.8426, static 0.5694) span 513 nm, centre 1629 nm
+pec_hot_T120k  d  7.5 nm, 75 deg, drop 0.40 (gamma x1.16): margin +0.0714 (switched 0.7976, limit 0.7261, static 0.4519) span 831 nm, centre 1829 nm
+pec_hot_T120k  d 10.0 nm, 70 deg, drop 0.30 (gamma x1.11): margin +0.0158 (switched 0.8636, limit 0.8479, static 0.5625) span 505 nm, centre 1624 nm
+pec_hot_T120k  d 10.0 nm, 70 deg, drop 0.40 (gamma x1.16): margin +0.0570 (switched 0.7858, limit 0.7289, static 0.4414) span 831 nm, centre 1825 nm
+saved results/r1_damping.json (161 s)

@@ -1,0 +1,15 @@
+best static film: absorbed 0.737 at a fixed drop of 4.5 % (adiabatic estimate best 0.737)
+   pump  -650 fs: switched absorbed 0.724 (adiabatic 0.721), W_mod -0.0003, balance -1.6e-04
+   pump  -600 fs: switched absorbed 0.747 (adiabatic 0.745), W_mod -0.0004, balance -1.5e-04
+   pump  -550 fs: switched absorbed 0.774 (adiabatic 0.773), W_mod -0.0005, balance -1.4e-04
+   pump  -500 fs: switched absorbed 0.805 (adiabatic 0.805), W_mod -0.0006, balance -1.2e-04
+   pump  -450 fs: switched absorbed 0.835 (adiabatic 0.835), W_mod -0.0008, balance -8.9e-05
+   pump  -400 fs: switched absorbed 0.855 (adiabatic 0.855), W_mod -0.0008, balance -5.2e-05
+   pump  -350 fs: switched absorbed 0.854 (adiabatic 0.853), W_mod -0.0009, balance -1.1e-05
+   pump  -300 fs: switched absorbed 0.826 (adiabatic 0.825), W_mod -0.0008, balance +2.8e-05
+   pump  -250 fs: switched absorbed 0.773 (adiabatic 0.772), W_mod -0.0006, balance +5.5e-05
+   pump  -200 fs: switched absorbed 0.709 (adiabatic 0.707), W_mod -0.0003, balance +6.6e-05
+   pump  -150 fs: switched absorbed 0.646 (adiabatic 0.645), W_mod +0.0001, balance +5.9e-05
+   pump  -100 fs: switched absorbed 0.595 (adiabatic 0.594), W_mod +0.0004, balance +3.9e-05
+best switched 0.855 at pump -400 fs; momentum form 0.855 (W_mod +0.0009); gain over best static +0.118
+saved results/route3.json

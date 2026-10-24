@@ -1,0 +1,4 @@
+# normalise line endings of text files; keep figures binary
+* text=auto
+*.png binary
+*.pdf binary

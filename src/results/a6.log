@@ -1,0 +1,62 @@
+1710 runs in 374 s
+
+static check, broadband slab: I_R FDTD 6.7332 d, exact 6.7329 d (bound 19.7392 d); max |d ln|Gamma|| 4.8e-06 for lambda >= d, 1.2e-02 overall
+largest |energy balance| over all runs: 2.4e-03
+
+Part 1. Broadband case of Fig. 3 (best phase for each f)
+  gauss: water-filling limit 0.9932, best static slab 0.9891 at wp = 13.5; energy beyond 100 d 6.2e-04
+    f = 0.0000: I_R/B best  0.341 (phi/pi 0.00, parts/B +0.034 +0.248 +0.051 +0.008), worst  0.341; absorbed best 0.7399, mean over phase 0.7399, W +0.0e+00
+    f = 0.0040: I_R/B best  0.342 (phi/pi 0.17, parts/B +0.034 +0.249 +0.051 +0.008), worst  0.340; absorbed best 0.7411, mean over phase 0.7399, W -2.1e-07
+    f = 0.0135: I_R/B best  0.345 (phi/pi 0.17, parts/B +0.034 +0.251 +0.051 +0.008), worst  0.338; absorbed best 0.7439, mean over phase 0.7399, W -7.1e-07
+    f = 0.0250: I_R/B best  0.348 (phi/pi 0.17, parts/B +0.034 +0.253 +0.052 +0.008), worst  0.335; absorbed best 0.7473, mean over phase 0.7398, W -1.3e-06
+    f = 0.0500: I_R/B best  0.354 (phi/pi 0.17, parts/B +0.035 +0.258 +0.052 +0.008), worst  0.328; absorbed best 0.7544, mean over phase 0.7397, W -2.6e-06
+    f = 0.1000: I_R/B best  0.367 (phi/pi 0.17, parts/B +0.037 +0.268 +0.054 +0.009), worst  0.315; absorbed best 0.7681, mean over phase 0.7390, W -5.2e-06
+    f = 0.2000: I_R/B best  0.392 (phi/pi 0.17, parts/B +0.040 +0.287 +0.056 +0.009), worst  0.289; absorbed best 0.7932, mean over phase 0.7362, W -1.0e-05
+    f = 0.4000: I_R/B best  0.443 (phi/pi 0.17, parts/B +0.045 +0.327 +0.061 +0.010), worst  0.236; absorbed best 0.8353, mean over phase 0.7248, W -2.1e-05
+    f = 0.6000: I_R/B best  0.493 (phi/pi 0.17, parts/B +0.051 +0.366 +0.065 +0.010), worst  0.181; absorbed best 0.8685, mean over phase 0.7052, W -3.0e-05
+    f = 0.8000: I_R/B best  0.544 (phi/pi 0.17, parts/B +0.057 +0.407 +0.068 +0.011), worst  0.124; absorbed best 0.8946, mean over phase 0.6766, W -4.0e-05
+    f = 0.9600: I_R/B best  0.584 (phi/pi 0.17, parts/B +0.062 +0.440 +0.071 +0.011), worst  0.077; absorbed best 0.9115, mean over phase 0.6464, W -4.7e-05
+  sine: water-filling limit 1.0000, best static slab 0.9999 at wp = 16.75; energy beyond 100 d 3.8e-11
+    f = 0.0000: I_R/B best  0.341 (phi/pi 0.00, parts/B +0.034 +0.248 +0.051 +0.008), worst  0.341; absorbed best 0.7451, mean over phase 0.7451, W +0.0e+00
+    f = 0.0040: I_R/B best  0.394 (phi/pi 0.17, parts/B +0.034 +0.249 +0.055 +0.055), worst  0.288; absorbed best 0.7463, mean over phase 0.7451, W -2.1e-07
+    f = 0.0135: I_R/B best  0.519 (phi/pi 0.17, parts/B +0.034 +0.252 +0.066 +0.167), worst  0.163; absorbed best 0.7491, mean over phase 0.7451, W -7.1e-07
+    f = 0.0250: I_R/B best  0.671 (phi/pi 0.17, parts/B +0.034 +0.256 +0.079 +0.302), worst  0.011; absorbed best 0.7525, mean over phase 0.7450, W -1.3e-06
+    f = 0.0500: I_R/B best  1.002 (phi/pi 0.17, parts/B +0.035 +0.263 +0.107 +0.596), worst -0.319; absorbed best 0.7598, mean over phase 0.7448, W -2.6e-06
+    f = 0.1000: I_R/B best  1.663 (phi/pi 0.17, parts/B +0.037 +0.278 +0.163 +1.184), worst -0.978; absorbed best 0.7736, mean over phase 0.7441, W -5.2e-06
+    f = 0.2000: I_R/B best  2.987 (phi/pi 0.17, parts/B +0.040 +0.309 +0.275 +2.362), worst -2.295; absorbed best 0.7989, mean over phase 0.7413, W -1.0e-05
+    f = 0.4000: I_R/B best  5.638 (phi/pi 0.17, parts/B +0.045 +0.370 +0.499 +4.721), worst -4.917; absorbed best 0.8414, mean over phase 0.7299, W -2.1e-05
+    f = 0.6000: I_R/B best  8.292 (phi/pi 0.17, parts/B +0.051 +0.431 +0.723 +7.082), worst -7.578; absorbed best 0.8749, mean over phase 0.7103, W -3.1e-05
+    f = 0.8000: I_R/B best 11.036 (phi/pi 0.00, parts/B +0.051 +0.456 +0.959 +9.565), worst -10.612; absorbed best 0.9014, mean over phase 0.6816, W -4.0e-05
+    f = 0.9600: I_R/B best 13.648 (phi/pi 0.00, parts/B +0.055 +0.500 +1.180 +11.907), worst -13.201; absorbed best 0.9184, mean over phase 0.6512, W -4.7e-05
+
+Part 2. Narrowband case of Fig. 4: AE_R (paper) 0.1766 with Gamma0 0.9053; water-filling limit 0.9800 (energy), 0.7712 (wavelength weighting); best static 0.9360 (energy, wp 5.75), 0.6920 (wavelength weighting, wp 6.75)
+    f = 0.00: absorbed energy best 0.9344 (phi/pi 0.000), mean 0.9344; AE_lam best 0.6713; I_R/B best 0.726
+    f = 0.10: absorbed energy best 0.9406 (phi/pi 0.000), mean 0.9335; AE_lam best 0.6969; I_R/B best 1.041, paper phase: AE 0.9349, AE_lam 0.6833
+    f = 0.20: absorbed energy best 0.9458 (phi/pi 0.000), mean 0.9310; AE_lam best 0.7198; I_R/B best 1.364, paper phase: AE 0.9335, AE_lam 0.6924
+    f = 0.30: absorbed energy best 0.9509 (phi/pi 1.875), mean 0.9265; AE_lam best 0.7421; I_R/B best 1.694, paper phase: AE 0.9309, AE_lam 0.6991
+    f = 0.40: absorbed energy best 0.9557 (phi/pi 1.875), mean 0.9198; AE_lam best 0.7638; I_R/B best 2.031, paper phase: AE 0.9272, AE_lam 0.7040
+    f = 0.50: absorbed energy best 0.9603 (phi/pi 1.875), mean 0.9102; AE_lam best 0.7845; I_R/B best 2.400, paper phase: AE 0.9228, AE_lam 0.7072
+    f = 0.60: absorbed energy best 0.9647 (phi/pi 1.875), mean 0.8970; AE_lam best 0.8044; I_R/B best 2.818, paper phase: AE 0.9179, AE_lam 0.7092
+    f = 0.70: absorbed energy best 0.9688 (phi/pi 1.875), mean 0.8790; AE_lam best 0.8233; I_R/B best 3.268, paper phase: AE 0.9126, AE_lam 0.7102
+    f = 0.80: absorbed energy best 0.9726 (phi/pi 1.875), mean 0.8546; AE_lam best 0.8413; I_R/B best 3.754, paper phase: AE 0.9071, AE_lam 0.7103
+    f = 0.90: absorbed energy best 0.9761 (phi/pi 1.875), mean 0.8216; AE_lam best 0.8584; I_R/B best 4.279, paper phase: AE 0.9014, AE_lam 0.7097
+    f = 0.96: absorbed energy best 0.9780 (phi/pi 1.875), mean 0.7964; AE_lam best 0.8682; I_R/B best 4.615, paper phase: AE 0.8979, AE_lam 0.7090
+    f = 1.00: absorbed energy best 0.9793 (phi/pi 1.875), mean 0.7768; AE_lam best 0.8746; I_R/B best 4.848, paper phase: AE 0.8956, AE_lam 0.7085
+
+Part 3. Narrowband pulse, best and mean absorbed energy over the phase
+    w_m = 0.05: 0.938 0.941 0.944 0.947 0.950 0.952 0.954 0.956 0.957 0.959
+    w_m = 0.10: 0.941 0.946 0.951 0.956 0.960 0.965 0.969 0.973 0.976 0.979
+    w_m = 0.15: 0.942 0.949 0.956 0.962 0.967 0.972 0.977 0.981 0.985 0.989
+    w_m = 0.20: 0.943 0.951 0.958 0.965 0.971 0.976 0.981 0.986 0.989 0.992
+    w_m = 0.25: 0.943 0.951 0.959 0.966 0.973 0.979 0.985 0.989 0.992 0.994
+    w_m = 0.30: 0.943 0.951 0.959 0.966 0.972 0.978 0.983 0.987 0.990 0.992
+    w_m = 0.40: 0.942 0.949 0.955 0.961 0.966 0.970 0.973 0.976 0.976 0.975
+    w_m = 0.50: 0.940 0.945 0.949 0.952 0.954 0.955 0.955 0.954 0.951 0.947
+    best 0.9943 at w_m 0.25, f 1.0, phi/pi 1.750, W -8.8e-04
+    check narrow: dz x0.5, time x1.0, momentum False: AE 0.99434, W -8.8e-04, balance -3.1e-06
+    check narrow: dz x1.0, time x2.0, momentum False: AE 0.99434, W -8.8e-04, balance -9.1e-06
+    check narrow: dz x1.0, time x1.0, momentum True: AE 0.99436, W +8.9e-04, balance -9.3e-06
+    check sine: dz x0.5, time x1.0, momentum False: AE 0.75808, I_R/B 1.0017, W -2.6e-06, balance -4.9e-04
+    check sine: dz x1.0, time x2.0, momentum False: AE 0.75977, I_R/B 1.0018, W -2.6e-06, balance -2.0e-03
+    check sine: dz x1.0, time x1.0, momentum True: AE 0.75977, I_R/B 1.0018, W +2.6e-06, balance -2.0e-03
+saved results/a6.json (401 s)

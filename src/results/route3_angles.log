@@ -1,0 +1,7 @@
+45.0 deg: adiabatic picks FWHM 300 fs; static 0.829 at drop 5.25 %, switched 0.936 at pump -325 fs
+50.0 deg: adiabatic picks FWHM 300 fs; static 0.855 at drop 5.88 %, switched 0.953 at pump -300 fs
+57.0 deg: adiabatic picks FWHM 300 fs; static 0.851 at drop 7.13 %, switched 0.929 at pump -250 fs
+45.0 deg, FWHM 300 fs: best static 0.829 (drop 5.25 %; adiabatic 0.829); switched 0.936 at pump -325 fs (adiabatic 0.936); momentum form 0.936; gain +0.107; W_mod -0.0013; largest |balance| 9.3e-05
+50.0 deg, FWHM 300 fs: best static 0.856 (drop 5.38 %; adiabatic 0.855); switched 0.955 at pump -300 fs (adiabatic 0.953); momentum form 0.955; gain +0.099; W_mod -0.0013; largest |balance| 6.9e-05
+57.0 deg, FWHM 300 fs: best static 0.857 (drop 6.62 %; adiabatic 0.851); switched 0.940 at pump -250 fs (adiabatic 0.929); momentum form 0.940; gain +0.082; W_mod -0.0013; largest |balance| 4.8e-05
+saved results/route3_angles.json (302 s)
